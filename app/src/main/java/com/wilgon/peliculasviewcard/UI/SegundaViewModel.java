@@ -1,4 +1,4 @@
-package com.wilgo.pelicularecyclerview.ui;
+package com.wilgon.peliculasviewcard.UI;
 
 import android.app.Application;
 import android.content.Intent;
@@ -8,7 +8,8 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import com.wilgo.pelicularecyclerview.modelos.Pelicula;
+import com.wilgon.peliculasviewcard.Modelo.Pelicula;
+import com.wilgon.peliculasviewcard.Modelo.Pelicula;
 
 public class SegundaViewModel extends AndroidViewModel {
 

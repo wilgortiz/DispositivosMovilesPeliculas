@@ -1,6 +1,8 @@
 package com.wilgon.peliculasviewcard.Modelo;
 
-public class Pelicula {
+import java.io.Serializable;
+
+public class Pelicula implements Serializable {
     private String titulo;
     private String reseña;
     private int imagen;

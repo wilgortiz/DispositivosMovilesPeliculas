@@ -45,11 +45,12 @@ public class PeliculaAdapter extends RecyclerView.Adapter<PeliculaAdapter.ViewHo
         holder.btnDetalle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(context, DetalleMainActivity.class);
-
+                Intent intent= new Intent(context,DetalleMainActivity.class);
+                intent.putExtra("pelicula", pelicula);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                context.startActivity(intent);
             }
         });
-
     }
 
     @Override
